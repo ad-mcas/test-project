@@ -1,0 +1,14 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended",
+        "docker:enableMajor",
+        ":maintainLockFilesMonthly",
+        ":preserveSemverRanges",
+        ":prHourlyLimit4",
+        ":semanticCommits",
+        ":timezone(Europe/Paris)"
+      ],
+      "dependencyDashboardAutoclose": true,
+      "rangeStrategy": "bump"
+}

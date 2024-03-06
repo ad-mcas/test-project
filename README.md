@@ -1,6 +1,6 @@
 # test-project
 
-
+Test project to test renovate with CI_SERVER_HOST
 
 ## Getting started
 
