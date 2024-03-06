@@ -10,7 +10,8 @@ stages:
 
 # force launch renovate manually
 renovate_test:
+  variables:
+    LOG_LEVEL: debug
   extends: renovate
   rules:
     - if: '$CI_PIPELINE_SOURCE != "schedule"'
-      when: manual
